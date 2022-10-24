@@ -15,7 +15,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 </head>
 <body>
     <h1>Log In</h1>
-    <h2>你可以選擇登入或是註冊帳號~</h2>
+    <h2>你可以選擇登Amazing入或是註冊帳號~</h2>
 <form method="post" action="login.php">
 帳號：
 <input type="text" name="username"><br/><br/>
