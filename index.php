@@ -14,7 +14,7 @@ session_start();
         <!-- Website icon for mining-->
         <link rel="icon" type="image/x-icon" href="assets/mining_38202.ico" />
         <!-- CSS Stylesheet-->
-        <link href="css/styles_modified.css" rel="stylesheet" />
+        <link href="styles_modified.css" rel="stylesheet" />
         <!-- Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
