@@ -46,7 +46,7 @@ session_start();
                         <hr class="divider" />
                     </div>
                         <p style="margin: auto; text-align:center; font-size:3rem;  color: white">Project: Cloud Bridge Between Miner, Engineer and Data Analyst</p>
-                        <p class="text-white-75 mb-5">Problem to Solve: How can engineers update the infomration on remote mine site? How can miners log-in the database and access the infomraiton? How can data analyst get the better understanding on data?</p>
+                        <p class="text-white-75 mb-5">Problem to Solve: How can engineers update the information on remote mine sites? How can miners log-in to the database and access the information? How can data analysts get a better understanding of data?</p>
 
                         <a class="btn btn-primary btn-xl" style="font-size: 3rem" href="#PROPOSAL">Project Proposal</a>
                     </div>
@@ -101,7 +101,7 @@ session_start();
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Containerisation </h3>
-                            <p class="text-muted mb-0">Kubernetes (pods) and virtual instance (docker/container) are available platfrom.</p>
+                            <p class="text-muted mb-0">Kubernetes (pods) and virtual instance (docker/container) are available platforms.</p>
                         </div>
                     </div>
                 </div>
