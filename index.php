@@ -128,8 +128,8 @@ session_start();
                 <p class="text-muted mb-5">The example projects are from HATCH, a mining consulting company.</p>
                 <a class="btn btn-dark btn-xl" href="https://www.hatch.com/">HATCH Website</a>
                 <div >
-                    <a class="PROJECTS-box" href="assets/img/HATCH.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/HATCH.jpg" alt="..." />
+                    <a class="PROJECTS-box" href="HATCH.jpg" title="Project Name">
+                        <img class="img-fluid" src="HATCH.jpg" alt="..." />
                         <div class="PROJECTS-box-caption">
                         </div>
                     </a>
