@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Cloud Computing Solutions for Remote Mine Sites</title>
+
+        <!-- Website icon for mining-->
+        <link rel="icon" type="image/x-icon" href="assets/mining_38202.ico" />
+        <!-- CSS Stylesheet-->
+        <link href="css/styles_modified.css" rel="stylesheet" />
+        <!-- Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
+            <div class="container px-4 px-lg-5" >
+                <a class="navbar-brand" href="#page-top">HATCH: Project Proposal</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#PROPOSAL">PROPOSAL</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#TOOLS">TOOLS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#LOGIN">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#INFO">INFO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- HEAD-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold" >Cloud Computing Solutions for Remote Mine Site</h1>
+                        <hr class="divider" />
+                    </div>
+                        <p style="margin: auto; text-align:center; font-size:3rem;  color: white">Project: Cloud Bridge Between Miner, Engineer and Data Analyst</p>
+                        <p class="text-white-75 mb-5">Problem to Solve: How can engineers update the infomration on remote mine site? How can miners log-in the database and access the infomraiton? How can data analyst get the better understanding on data?</p>
+
+                        <a class="btn btn-primary btn-xl" style="font-size: 3rem" href="#PROPOSAL">Project Proposal</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- PROPOSAL-->
+        <section class="page-section bg-primary" id="PROPOSAL">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Cloud Container/Pod + Starlink</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">In the mining industry, it is a common problem that data analysts do not understand the meaning of provided data, and engineers have to spend a lot of unnecessary time explaining the purpose of data. It would be nice if engineers could update the data in real-time on-site and front of the project. The data analyst team can then review the data in real time and ask questions about the data. However, many remote mine sites only have limited internet connection, and engineers can do only limited jobs and data updates on site in front of the project. This proposal focuses on providing a solution to this problem.  </p>
+                        <p class="text-white-75 mb-5">Cloud computing can resolve this issue using satellite internet, virtual instance, and Kubernetes. The platform includes "Virtual instances (Docker-compose)(Container)" or "Kubernetes (POD)". The micro-services include PHP-FPM, Nginx, Myphpadmin and Mysql. The engineers do not have to wait until returning to the mine site office and update the data afterwards. The data analyst can obtain the information and raise any possible questions about the data so that the data analyst can interpret the data easily.  </p>
+                        <p class="text-white-75 mb-5">Furthermore, while engineers and data analysts update the container and project information, the miner can also log in to the database and learn more about the project. Miners can report to the engineer instantly if there is any concern or problem. While there are many projects and miners, Kubernetes also plays an essential role in scalability and reliability. 
+                             </p>
+                        <p class="text-white-75 mb-5">The mining industry can achieve all these features thanks to modern satellite internet and Cloud Computing(virtual instance/Kubernetes)! </p>
+                        <a class="btn btn-light btn-xl" href="#TOOLS">Tools</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TOOL-->
+        <section class="page-section" id="TOOLS">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Cloud Computing Tools</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Starlink</h3>
+                            <p class="text-muted mb-0">Starlink is an earth orbit satellite internet provider for remote mine site. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Micro-service Architecture & Orchestration</h3>
+                            <p class="text-muted mb-0">Kubernetes can provide scalability, reliability and orchestration.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Frontend & Backend</h3>
+                            <p class="text-muted mb-0">PHP-FPM (CSS+HTML), NginX, MySQL and MyPHPAdmine (Databases).</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Containerisation </h3>
+                            <p class="text-muted mb-0">Kubernetes (pods) and virtual instance (docker/container) are available platfrom.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- LOGIN  -->
+        </section>
+        <section class="page-section bg-dark container-fluid p-0" id="LOGIN">
+            <div >
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    
+                    <div class="col-lg-8 align-self-baseline" style="margin: auto; text-align:center; font-size:5rem; color: orangered">
+                        <hr class="divider" />
+                        <p class=" mb-5">Please start here!</p>
+                        <a class="btn btn-primary btn-xl" style="font-size:3rem" href="login.php">Login</a>
+                        <hr class="divider" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HATCH-->
+        <section class="page-section bg-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4" style="color: orangered">Projects in Real Life: HATCH</h2>
+                <p class="text-muted mb-5">The example projects are from HATCH, a mining consulting company.</p>
+                <a class="btn btn-dark btn-xl" href="https://www.hatch.com/">HATCH Website</a>
+                <div >
+                    <a class="PROJECTS-box" href="assets/img/HATCH.jpg" title="Project Name">
+                        <img class="img-fluid" src="assets/img/HATCH.jpg" alt="..." />
+                        <div class="PROJECTS-box-caption">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- INFO-->
+        <section class="page-section bg-dark text-white" id="INFO">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">About the website:</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">This website is created as part of individual assignment for University of Queensland INFS3208 Cloud Computing. The website is created as project proposal within HATCH mining consulting company.</p>
+                        <i class="col-lg-4 bi-phone fs-2 mb-3 text-muted"></i>
+                        <h2 >Jefferson's Project</h2>
+                        <a class="btn btn-light btn-xl" href="https://www.linkedin.com/in/jefferson-lee-b46889101/?originalSubdomain=aum">LinkedIN!</a>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="mb-5 mb-lg-0">
+                        <hr class="divider" />
+                        <p class="text-white ">Project: INFS3208 Cloud Computing</p>
+                        <p class="text-white ">Student: TSE-WEI LEE s4315049</p>
+                        <p class="text-white ">Email: jefferson.lee.tw@gmail.com</p>
+                        <p class="text-white ">Reference(Projects): Hatch Ltd</p>
+                        <p class="text-white ">Reference(Drawing): Imaging Solutions Group - Aqua Cooler: Cooling solutions</p>
+                        <p class="text-white ">Reference(Website Style): stylesheet - Style.css </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+
