@@ -42,7 +42,7 @@ session_start();
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold" >Cloud Computing Solutions for Remote Mine Site 001</h1>
+                        <h1 class="text-white font-weight-bold" >Cloud Computing Solutions for Remote Mine Site</h1>
                         <hr class="divider" />
                     </div>
                         <p style="margin: auto; text-align:center; font-size:3rem;  color: white">Project: Cloud Bridge Between Miner, Engineer and Data Analyst</p>
