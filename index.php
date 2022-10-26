@@ -37,21 +37,21 @@ session_start();
         <!-- Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-    
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
     </head>
-    <body id="page-top">
+    <body id="page-top" style="font-family: 'Roboto', sans-serif">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
-            <div class="container px-4 px-lg-5" style="font-size: 1rem; text-decoration: none; color: #FFFF">
+            <div class="container px-4 px-lg-5" style="font-size: 1rem; text-decoration: none; color: orangered">
                 <a class="navbar-brand" href="#page-top">HATCH: Project Proposal</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <p style="font-size: 1rem; text-decoration: none; color: #FFFF"><li class="nav-item"><a class="nav-link" href="#PROPOSAL">PROPOSAL</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#TOOLS">TOOLS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#LOGIN">LOGIN</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#INFO">INFO</a></li>
+                <div class="collapse navbar-collapse" id="navbarResponsive" style='display: flex; justify-content: center;'>
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0"style='display: flex'>
+                        <p style="font-size: 1rem; text-decoration: none; color: orangered"><li class="nav-item"><a style="padding-right: 20px;" class="nav-link" href="#PROPOSAL">PROPOSAL</a></li>
+                        <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#TOOLS">TOOLS</a></li>
+                        <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#LOGIN">LOGIN</a></li>
+                        <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#INFO">INFO</a></li>
                     </ul>
                 </div>
             </div>
@@ -156,7 +156,7 @@ session_start();
                         <hr class="divider"  />
                         <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
                         <p class=" mb-5"  style="color: orangered">Please start here!</p>
-                        <a class="btn btn-primary btn-xl" style="font-size: 3rem; text-decoration: none; color: #FFFF" href="login.php">[Login]</a>
+                        <a class="btn btn-primary btn-xl" style="font-size: 3rem; text-decoration: none; color: #FFFF" href="http://35.238.223.235:8080/">[Login]</a>
                         <p class=" mb-5"  style="color: orangered"></p>
                         <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
                         <hr class="divider" />
@@ -173,13 +173,55 @@ session_start();
                 <h2 class="mb-4" style="color: orangered; font-size: 3rem;">Projects in Real Life: HATCH</h2>
                 <p class="text-muted mb-5"  style="color: #FFFF; font-size: 1.5rem;">The example projects are from HATCH, a mining consulting company.</p>
                 <a class="btn btn-dark btn-xl" href="https://www.hatch.com/"  style="color: #FFFF; text-decoration: none; font-size: 3rem;">[HATCH Website]</a>
-                <div >
-                    <a class="PROJECTS-box" href="HATCH.jpg" title="Project Name">
+                <div style="width: 100vw" >
+                    <a class="PROJECTS-box" style="width:100%" href="HATCH.jpg" title="Project Name">
                         <img src="https://raw.githubusercontent.com/Jeffersonjjsk/cloud_computing-code/main/HATCH.jpg" alt="..." />
                         
                         <div class="PROJECTS-box-caption">
                             <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
                     
+                        </div>
+                    </a>
+
+                    <a class="PROJECTS-box" href="1.jpg" title="Project Name">
+                        <img src="https://raw.githubusercontent.com/Jeffersonjjsk/cloud_computing-code/main/1.jpg" alt="..." />
+                        <div class="PROJECTS-box-caption">
+                            <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
+                        </div>
+                    </a>
+                    
+                    <a class="PROJECTS-box" href="2.jpg" title="Project Name">
+                        <img src="https://raw.githubusercontent.com/Jeffersonjjsk/cloud_computing-code/main/2.jpg" alt="..." />
+                        <div class="PROJECTS-box-caption">
+                            <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
+                        </div>
+                    </a>
+                                        
+                    <a class="PROJECTS-box" href="3.jpg" title="Project Name">
+                        <img src="https://raw.githubusercontent.com/Jeffersonjjsk/cloud_computing-code/main/3.jpg" alt="..." />
+                        <div class="PROJECTS-box-caption">
+                            <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
+                        </div>
+                    </a>
+                                        
+                    <a class="PROJECTS-box" href="4.jpg" title="Project Name">
+                        <img src="https://raw.githubusercontent.com/Jeffersonjjsk/cloud_computing-code/main/4.jpg" alt="..." />
+                        <div class="PROJECTS-box-caption">
+                            <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
+                        </div>
+                    </a>
+                                        
+                    <a class="PROJECTS-box" href="5.jpg" title="Project Name">
+                        <img src="https://raw.githubusercontent.com/Jeffersonjjsk/cloud_computing-code/main/5.jpg" alt="..." />
+                        <div class="PROJECTS-box-caption">
+                            <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
+                        </div>
+                    </a>
+                                        
+                    <a class="PROJECTS-box" href="6.jpg" title="Project Name">
+                        <img src="https://raw.githubusercontent.com/Jeffersonjjsk/cloud_computing-code/main/6.jpg" alt="..." />
+                        <div class="PROJECTS-box-caption">
+                            <a class="btn btn-light btn-xl" style="font-size: 3rem; text-decoration: none; color: orangered">------</a>
                         </div>
                     </a>
                 </div>
